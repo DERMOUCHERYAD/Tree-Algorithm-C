@@ -1,0 +1,4 @@
+digraph arbre {
+    plumes -> autruche [label = "oui"]
+    vertebres -> plumes [label = "oui"]
+}

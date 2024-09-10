@@ -1,0 +1,14 @@
+digraph arbre {
+    vertebres -> limace [label = "non"]
+    machoires -> lamproie [label = "non"]
+    doigts -> carpe [label = "non"]
+    amnios -> grenouille [label = "non"]
+    plumes -> crocodile [label = "non"]
+    plumes -> autruche [label = "oui"]
+    placenta -> plumes [label = "non"]
+    placenta -> chat [label = "oui"]
+    amnios -> placenta [label = "oui"]
+    doigts -> amnios [label = "oui"]
+    machoires -> doigts [label = "oui"]
+    vertebres -> machoires [label = "oui"]
+}
